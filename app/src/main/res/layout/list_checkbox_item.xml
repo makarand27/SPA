@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:id="@+id/TableLayout"
+    android:animateLayoutChanges="true">
+
+    <TableRow >
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/name"
+            style="@style/BSAText"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="7" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/last_attended"
+            style="@style/BSAText"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@id/name"
+            android:layout_weight="3" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/level"
+            style="@style/BSAText"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textSize="16sp"
+            android:theme="@style/BSAText"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/img_check"
+            style="@style/BSAText"
+            android:layout_width="0dip"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.1"
+            app:srcCompat="@drawable/ic_check_black_24dp" />
+
+    </TableRow>
+</TableLayout>

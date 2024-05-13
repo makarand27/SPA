@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#005FCC</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="BSA_Blue">#005FCC</color>
+    <color name="BSA_White">#FFFFFF</color>
+    <color name="BSA_Red">#FF0000</color>
+    <color name="BSA_BG_Cyan">#ADD8E6</color>
+</resources>

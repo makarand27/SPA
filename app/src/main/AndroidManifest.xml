@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.bsa">
+
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.Manifest.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:name=".App"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+
+        <activity
+            android:name=".PreferenceActivity"
+            android:label="@string/title_activity_preference"
+            android:theme="@style/AppTheme.BSAActionBar"></activity>
+        <activity
+            android:name=".StudentMaintActivity"
+            android:label="@string/title_activity_student_maint"
+            android:parentActivityName=".StudentsListActivity"
+            android:theme="@style/AppTheme.BSAActionBar"
+            android:launchMode="singleTop"
+            >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="StudentsListActivity" />
+        </activity>
+        <activity
+            android:name=".FeeMaintenance"
+            android:label="@string/title_activity_fee_maint"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.BSAActionBar" />
+        <activity
+            android:name=".BatchMaintenanceActivity"
+            android:label="@string/title_activity_batch_maint"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.BSAActionBar" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search_results"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.BSAActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".StudentsListActivity"
+            android:label="@string/title_activity_students_list"
+            android:parentActivityName=".BatchListActivity"
+            android:theme="@style/AppTheme.BSAActionBar"
+            android:launchMode="singleTop">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="BatchListActivity" />
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:theme="@style/AppTheme.BSAActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BatchListActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.BSAActionBar">
+        </activity>
+        <activity
+            android:name=".StudentAnalyticsActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".BatchListActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.BSAActionBar">
+        </activity>
+    </application>
+
+</manifest>

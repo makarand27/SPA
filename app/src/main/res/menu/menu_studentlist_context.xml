@@ -1,0 +1,68 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.app.bsa.StudentsListActivity">
+
+    <item
+        android:id="@+id/canSelection"
+        android:icon="@drawable/sharp_clear_all_24"
+        android:orderInCategory="1"
+        android:title="@string/cancel_selection"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itemfee6"
+        android:icon="@drawable/baseline_flip_to_back_24"
+        android:orderInCategory="1"
+        android:title="Fees-1/2 Mnth"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itemfee1"
+        android:icon="@drawable/ic_filter_1_black_24dp"
+        android:orderInCategory="1"
+        android:title="Fees-1 Mnth"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemfee3"
+        android:icon="@drawable/ic_filter_3_black_24dp"
+        android:orderInCategory="1"
+        android:title="Fees-3 Mnth"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_report_attendance"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:orderInCategory="100"
+        android:title="@string/action_attendance"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_report_new"
+        android:icon="@drawable/ic_person_add_white_32dp"
+        android:orderInCategory="100"
+        android:title="@string/action_report_new"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_remind"
+        android:icon="@drawable/ic_sms_black_24dp"
+        android:orderInCategory="100"
+        android:title="@string/action_remind"
+        android:titleCondensed="@string/action_remind"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_select_remind"
+        android:icon="@drawable/ic_sms_black_24dp"
+        android:orderInCategory="100"
+        android:title="@string/action_select_remind"
+        android:titleCondensed="@string/action_select_remind"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_joining_kit_paid"
+        android:title="@string/lbl_mnu_joining_kit_paid"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

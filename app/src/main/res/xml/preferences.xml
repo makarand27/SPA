@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="General">
+
+        <SwitchPreference
+            app:defaultValue="true"
+            app:key="@string/action_sms"
+            style="@style/BSAText"
+            app:title="@string/title_action_sms" />
+
+        <SwitchPreference
+            app:defaultValue="true"
+            style="@style/BSAText"
+            app:key="@string/action_filterStudents"
+            app:title="@string/title_action_filterStudents" />
+
+        <EditTextPreference
+            app:key="@string/key_m_no"
+            app:title="@string/no_title"
+            app:summary="@string/no_summary"
+            style="@style/BSAText"
+            android:textColor="@color/colorPrimaryDark"
+            app:dialogTitle="@string/no_dialog_title"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_header_about">
+
+        <Preference
+            app:selectable="false"
+            android:layout="@layout/custom_preference_layout"
+            app:summary="@string/summary_about" />
+
+        <Preference
+            app:summary="@string/app_version"
+            android:layout="@layout/custom_preference_layout"
+            app:title="@string/title_version" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

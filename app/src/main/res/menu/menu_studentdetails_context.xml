@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.app.bsa.StudentMaintActivity"
+    >
+
+    <item
+        android:id="@+id/ab_fab_edit"
+        android:icon="@drawable/ic_mode_edit_white_24dp"
+        android:orderInCategory="1"
+        app:backgroundTint="@android:color/white"
+        android:title="@string/lbl_edit_cfee"
+        app:showAsAction="always" />
+
+
+   <item
+        android:id="@+id/ab_btn_update_student1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_save_white_24dp"
+        app:showAsAction="always"
+       android:title="@string/title_save"
+        />
+
+    <item
+        android:id="@+id/ab_btn_delete_student1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orderInCategory="3"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="always"
+        android:title="@string/title_delete" />
+
+
+</menu>

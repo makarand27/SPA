@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_weight="1"
+    android:background="@drawable/border"
+    android:gravity="center"
+    android:id="@+id/TableLayout1"
+    >
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/name"
+        android:theme="@style/BSAText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="8dp"
+        android:background="#CCC7C7"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+       />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/pendingStu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="16dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:theme="@style/BSAText"
+        />
+
+</RelativeLayout>
