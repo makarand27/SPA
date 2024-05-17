@@ -1,37 +1,26 @@
 {
   "project_info": {
-    "project_number": "613922715097",
-    "firebase_url": "https://bsaapp-55297.firebaseio.com",
-    "project_id": "bsaapp-55297",
-    "storage_bucket": "bsaapp-55297.appspot.com"
+    "project_number": "619125420867",
+    "project_id": "spacademy-55daa",
+    "storage_bucket": "spacademy-55daa.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:613922715097:android:ecb9d90c11ed874eac95c8",
+        "mobilesdk_app_id": "1:619125420867:android:1fa971868d0c05c5ed75f6",
         "android_client_info": {
-          "package_name": "com.bsa.tracker"
+          "package_name": "com.app.spa"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "613922715097-cpvsmb5cosuvqs3u8rplop99ua6j7h4m.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBarEOoFFLBVumy_aED-1S_bFmOhugZ55U"
+          "current_key": "AIzaSyCNOWFCTFu_ejCqSc1O6foesV2svs5ed6Q"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "613922715097-cpvsmb5cosuvqs3u8rplop99ua6j7h4m.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

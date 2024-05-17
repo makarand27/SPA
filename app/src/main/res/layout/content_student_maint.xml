@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.app.bsa.StudentMaintActivity"
+    tools:context="com.app.spa.StudentMaintActivity"
     tools:showIn="@layout/activity_student_maint"
     android:id="@+id/stuMaintenanceContentLayout"
     android:animateLayoutChanges="true">

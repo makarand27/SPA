@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.app.bsa.StudentsListActivity">
+    tools:context="com.app.spa.StudentsListActivity">
 
     <item
         android:id="@+id/canSelection"

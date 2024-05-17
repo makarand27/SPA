@@ -6,7 +6,7 @@
     android:id="@+id/batchMaintenance"
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
-    tools:context="com.app.bsa.BatchMaintenanceActivity">
+    tools:context="com.app.spa.BatchMaintenanceActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"

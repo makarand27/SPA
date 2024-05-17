@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/layoutActivityPreference"
     android:animateLayoutChanges="true"
-    tools:context="com.app.bsa.PreferenceActivity">
+    tools:context="com.app.spa.PreferenceActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"

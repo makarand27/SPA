@@ -7,7 +7,7 @@
     android:id="@+id/layoutStudentList"
     android:animateLayoutChanges="true"
 
-    tools:context="com.app.bsa.StudentsListActivity">
+    tools:context="com.app.spa.StudentsListActivity">
 
      <com.google.android.material.appbar.AppBarLayout
          android:layout_width="match_parent"
