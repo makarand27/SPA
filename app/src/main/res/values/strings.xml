@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_version">Ver 3.3.0</string>
+    <string name="app_version">Ver 1.0</string>
     <string name="app_name">SPA</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_sign_in">Sign In</string>
