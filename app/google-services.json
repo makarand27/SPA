@@ -1,13 +1,10 @@
 {
   "project_info": {
     "project_number": "619125420867",
-    "project_id": "spacademy-55daa",
-    "storage_bucket": "spacademy-55daa.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:619125420867:android:1fa971868d0c05c5ed75f6",
         "android_client_info": {
           "package_name": "com.app.spa"
         }
@@ -15,7 +12,6 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCNOWFCTFu_ejCqSc1O6foesV2svs5ed6Q"
         }
       ],
       "services": {
